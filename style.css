@@ -1,0 +1,71 @@
+body {
+  color: hsl(0, 0%, 0%);
+  background: #fff8c0;
+  animation: changeColor 3s infinite alternate; /* Change color every 3 seconds */
+}
+
+@keyframes changeColor {
+  0% {
+    background-color: #fff8c0;
+  }
+  10% {
+    background-color: #a0c4ff;
+  }
+  20% {
+    background-color: #ffc0cb;
+  }
+  30% {
+    background-color: #c0ffb7;
+  }
+  40% {
+    background-color: #ffd700;
+  }
+  50% {
+    background-color: #90ee90;
+  }
+  60% {
+    background-color: #dda0dd;
+  }
+  70% {
+    background-color: #ffa07a;
+  }
+  80% {
+    background-color: #87cefa;
+  }
+  90% {
+    background-color: #ffebcd;
+  }
+  100% {
+    background-color: #fff8c0;
+  }
+}
+
+span {
+  font-size: 30px;
+}
+
+#camera,
+#result {
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px;
+}
+
+#result_emotion_name,
+#result_emotion_name2 {
+  color: black;
+}
+
+.emotion_name {
+  font-size: 40px;
+}
+
+.emoji {
+  font-size: 48px;
+}
+
+.heading {
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
